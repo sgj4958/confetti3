@@ -65,34 +65,6 @@ const 폭죽 = (elementQuery, option) => {
             inherits: false;
             initial-value: 0deg;
         }
-
-        @keyframes aconfetti1 {
-            50% {
-                translate: 350% 55vh;
-                rotate3d(1, 1, 1, 90deg);
-            }
-            100% {
-                translate: -350% 110vh;
-            }
-        }
-        @keyframes aconfetti2 {
-            50% {
-                translate: -250% 55vh;
-                rotate3d(1, 1, 1, -90deg);
-            }
-            100% {
-                translate: 250% 110vh;
-            }
-        }
-        @keyframes aconfetti3 {
-            50% {
-                translate: 100% 55vh;
-            }
-            100% {
-                translate: -100% 110vh;
-                rotate3d(1, 1, 1, 45deg);
-            }
-        }
     </style>`)
 
     const button = parent.querySelector("button p:first-child")
